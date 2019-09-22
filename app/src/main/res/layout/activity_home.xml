@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.BottomNavigation.HomeActivity"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:id="@+id/categories"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/logo" />
+
+
+        <Button
+            android:id="@+id/emergency"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/categories"
+            android:text="Emergency"
+            android:layout_marginTop="5dp"
+
+
+            />
+
+
+    </RelativeLayout>
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:id="@+id/image_Buttons"
+     android:layout_marginBottom="20dp"
+   >
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:orientation="horizontal"
+         android:layout_weight="1">
+
+         <Button
+             android:id="@+id/clinics"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:src="@drawable/person"
+             android:text="Clinics"
+
+             />
+
+         <Button
+             android:id="@+id/pharmacies"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:text="pharmacy"
+
+     />
+
+         <Button
+             android:id="@+id/hospitals"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+              android:text="Hospitals" />
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/labs"
+            android:text="Labs/Radiology"
+
+
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/optics"
+            android:text="Optics"
+
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/medicalequipment"
+           android:text="Medical Equipment"
+
+
+            />
+    </LinearLayout>
+
+
+ </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.design.widget.BottomNavigationView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".activities.BaseActivity.Base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/bottom_navigation_elevation"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_nav"
+        android:background="@color/colorBottomNavigationInactiveColored"
+        app:menu="@menu/bottom_menu">
+
+    </android.support.design.widget.BottomNavigationView>
+
+
